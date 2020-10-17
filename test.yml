@@ -1,0 +1,17 @@
+---
+
+- name: Ansible Playbook Structure and flow
+  hosts: localhost
+  gather_facts: False
+
+  vars:
+
+  
+
+  tasks: 
+
+    - name: This is task 1
+      debug:
+        msg: "This output is from Task 1 "
+
+...
